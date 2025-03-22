@@ -210,3 +210,55 @@ article{
     color: #bc1004;
     font-family: 'DM serif display';
 }
+@media(max-width:767px){
+
+    .navbar {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+      }
+    
+     .navbar a {
+        display: block;
+        margin: 8px 0;
+      }
+    
+       section {
+        padding: 20px 10px;
+      }
+     article{
+        grid-template-columns: 1fr;
+        padding: 20px;
+     }
+      .heading1{
+        font-size: 18px;
+
+      }
+      .heading2{
+        font-size: 18px;
+      }
+      .heading3{
+        font-size: 18px;
+
+      }
+      .heading4{
+        font-size: 18px;
+
+      }
+    
+       footer {
+        padding: 15px 10px;
+        font-size: 14px;
+      }
+    header{
+        padding: 10px 10px;
+        margin: 12px;
+    }
+}
+@media (max-width:1024px){
+    article{
+        grid-template-columns: repeat(2,1)fr;
+        padding: 30px;
+    }
+}
+
